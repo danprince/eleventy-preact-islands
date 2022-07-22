@@ -1,0 +1,19 @@
+{
+  "name": "@danprince/eleventy-preact-islands",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build:example": "eleventy --input example"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.49",
+    "esbuild-register": "^3.3.3",
+    "preact-render-to-string": "^5.2.1",
+    "preact": "^10.10.0"
+  }
+}
